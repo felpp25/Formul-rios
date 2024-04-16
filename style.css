@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.conteiner {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 8%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 70px;
+  backdrop-filter: blur(10px);
+}
+
+img {
+  border-radius: 900px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10%;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 30px;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  margin-left: 60px;
+}
+
+.coleta-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-bottom: 60px;
+  border-style: solid;
+  border-color: beige;
+  border-width: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.input-grups {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  color: #fff;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.input-grups input {
+  height: 20px;
+  width: 200px;
+  border-radius: 6px;
+  margin-left: 10px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.input-grups input:focus-visible {
+  outline: 1px solid;
+}
+
+.estado-select {
+  color: blue;
+}
+
+.select-estados {
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.tittle-2 {
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.input-age label {
+  color: #fff;
+}
+
+/* CSS */
+.button-31 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 5px 10px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: 0.75;
+}
+
+.button-32 {
+  cursor: pointer;
+}

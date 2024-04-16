@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulário-1</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <img
+        src="https://plus.unsplash.com/premium_photo-1679826780195-1076f8e6196b?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        width="350px"
+        height="500px"
+      />
+      <form action="form1">
+        <div class="coleta-info">
+          <h1>Formulário - coleta de informações pessoais</h1>
+        </div>
+        <div class="box-info">
+          <div class="input-grups">
+            <label for="name" id="name">Nome Completo: </label>
+            <input type="text" placeholder="Seu nome aqui..." required />
+          </div>
+
+          <div class="input-grups">
+            <label for="email" id="email">E-mail: </label>
+            <input type="text" required />
+          </div>
+
+          <div class="input-grups">
+            <label for="data" id="data">Data de nascimento: </label>
+            <input type="text" required />
+          </div>
+
+          <div class="input-grups">
+            <label for="login" id="login">Login: </label>
+            <input type="text" required />
+          </div>
+
+          <div class="input-grups">
+            <label for="passwold" id="password">Senha: </label>
+            <input type="password" required />
+          </div>
+
+          <div class="select-estados">
+            <label for="estados">Estado: </label>
+            <select id="estados" class="estado-select" aria-label="Estados">
+              <option selected>Selecione o estado</option>
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+              <option value="EX">Estrangeiro</option>
+            </select>
+          </div>
+
+          <div class="age choice">
+            <div class="tittle-2">
+              <h3>Faixa etária</h3>
+            </div>
+
+            <div class="input-age">
+              <input type="radio" />
+              <label for="age <=18">Menor ou igual a 18 anos</label>
+            </div>
+
+            <div class="input-age">
+              <input type="radio" />
+              <label for="age >=18">Maior de 18 anos</label>
+            </div>
+          </div>
+
+          <button class="button-32" role="button">Limpar formulário</button>
+          <button class="button-31" role="button">Efetuar cadastro</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
